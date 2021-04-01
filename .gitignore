@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.mak
+*.oem3
+*.xs
+*.bld
+Release/collector_CC1310_LAUNCHXL_tirtos_ccs_linkInfo.xml
