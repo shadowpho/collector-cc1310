@@ -248,7 +248,7 @@ uint16_t Csf_events = 0;
 Cllc_states_t savedCllcState = Cllc_states_initWaiting;
 
 /* Permit join setting */
-bool permitJoining = false;
+bool permitJoining = true;
 
 /******************************************************************************
  Local function prototypes
@@ -354,6 +354,11 @@ void Csf_init(void *sem)
         }
     }
 #endif
+   // permitJoining=true;
+   // LCD_WRITE_STRING("PermitJoin-ON ", 3);
+   // Cllc_setJoinPermit(0xFFFFFFFF);
+
+
 }
 
 /*!
@@ -438,6 +443,7 @@ void Csf_processEvents(void)
                     duration = 0xFFFFFFFF;
                     LCD_WRITE_STRING("PermitJoin-ON ", 3);
                 }
+
 
                 /* Set permit joining */
                 Cllc_setJoinPermit(duration);
