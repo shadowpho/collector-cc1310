@@ -55,3 +55,14 @@ dkms.conf
 *.xs
 *.bld
 Release/collector_CC1310_LAUNCHXL_tirtos_ccs_linkInfo.xml
+*.mk
+*.mk
+Release/collector_CC1310_LAUNCHXL_tirtos_ccs_linkInfo.xml
+Release/configPkg/config.bld
+Release/configPkg/package/cfg/app_pem3.cfg
+Release/configPkg/package/cfg/app_pem3.mak
+Release/configPkg/package/cfg/app_pem3.oem3
+Release/configPkg/package/cfg/app_pem3.rov.xs
+Release/makefile
+Release/subdir_rules.mk
+src/sysbios/rom_sysbios.aem3
